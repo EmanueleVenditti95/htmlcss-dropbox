@@ -109,3 +109,13 @@ h2 {
     font-weight: 800;
     padding: 50px;
 }
+
+.card-row {
+    margin-top: 50px;
+}
+
+.card-title{
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #b6b6b6;
+}
