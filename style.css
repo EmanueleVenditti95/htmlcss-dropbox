@@ -7,6 +7,8 @@
 
 ul,li {
     list-style: none;
+}
+.header-list ul,.header-list li {
     display: inline;
 }
 
@@ -37,20 +39,21 @@ img {
 header .row{
     justify-content: space-between;
     align-items: center;
-    line-height: 30px;
+    
     padding: 20px;
 }
 
 .button {
     background-color: #0061FF;
     color: white;
-    padding: 0 20px;
+    padding: 10px 15px;
 }
 
 .header-list {
     gap: 30px;
     display: flex;
     font-size: 15px;
+    align-items: center;
 }
 
 .container.hero {
@@ -60,21 +63,26 @@ header .row{
 .container-small {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 50px;
 }
 
 h1 {
     font-size: 64px;
     font-weight: 800;
-    padding: 50px;
+    padding-bottom: 30px;
 }
+
+
 
 .col-4 {
     flex-basis: calc(100% /3);
     flex-wrap: wrap;
     display: flex;
     flex-direction: column;
+    
 }
 
 .col-8 {
     flex-basis: calc((100% /12)*8);
 }
+
