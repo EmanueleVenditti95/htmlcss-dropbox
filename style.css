@@ -56,11 +56,11 @@ header .row{
     align-items: center;
 }
 
-.container.hero {
+.hero {
     background-color: #b4d0e7;
 }
 
-.container-small {
+.container-hero {
     max-width: 1200px;
     margin: 0 auto;
     padding: 50px;
@@ -90,4 +90,15 @@ h1 {
 
 .hero-text{
     margin-bottom: 25px;
+}
+
+.container-small {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+    padding: 50px;
 }
