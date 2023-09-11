@@ -73,16 +73,18 @@ h1 {
 }
 
 
-
 .col-4 {
     flex-basis: calc(100% /3);
     flex-wrap: wrap;
     display: flex;
     flex-direction: column;
-    
+    justify-content: space-between;
 }
 
 .col-8 {
     flex-basis: calc((100% /12)*8);
 }
 
+#arrow{
+    font-size: 50px;
+}
