@@ -64,6 +64,7 @@ header .row{
     max-width: 1200px;
     margin: 0 auto;
     padding: 50px;
+    position: relative;
 }
 
 h1 {
@@ -75,10 +76,6 @@ h1 {
 
 .col-4 {
     flex-basis: calc(100% /3);
-    flex-wrap: wrap;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 .col-8 {
@@ -87,4 +84,10 @@ h1 {
 
 #arrow{
     font-size: 50px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.hero-text{
+    margin-bottom: 25px;
 }
