@@ -8,9 +8,6 @@
 ul,li {
     list-style: none;
 }
-.header-list ul,.header-list li {
-    display: inline;
-}
 
 a {
     text-decoration: none;
@@ -66,7 +63,6 @@ header .row{
     max-width: 1200px;
     margin: 0 auto;
     padding: 50px;
-    position: relative;
 }
 
 h1 {
@@ -91,8 +87,7 @@ h1 {
 
 #arrow{
     font-size: 50px;
-    position: absolute;
-    bottom: 0px;
+    margin-top: 80px;
 }
 
 .hero-text{
@@ -111,7 +106,7 @@ h2 {
 }
 
 .card-row {
-    margin-top: 50px;
+    margin-top: 50px;  
 }
 
 .card-title{
@@ -119,3 +114,4 @@ h2 {
     line-height: 40px;
     border: 1px solid #b6b6b6;
 }
+
