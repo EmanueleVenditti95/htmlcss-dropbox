@@ -71,6 +71,9 @@ h1 {
     padding-bottom: 30px;
 }
 
+.col-3 {
+    flex-basis: calc(100% /4);
+}
 
 .col-4 {
     flex-basis: calc(100% /3);
@@ -102,23 +105,24 @@ h1 {
 h2 {
     font-size: 36px;
     font-weight: 800;
-    padding: 50px;
+    padding: 50px 0;
 }
 
 .card-row {
-    margin-top: 50px;  
+    margin-top: 50px;
+    gap: 50px;  
 }
 
 .card-title{
     text-align: center;
     line-height: 40px;
-    border: 1px solid #b6b6b6;
+    border-bottom: 1px solid #b6b6b6;
 }
 
 .card-body{
     display: flex;
     flex-direction: column;
-    margin: 40px;
+    padding: 40px;
     gap: 40px;
 }
 
@@ -149,3 +153,12 @@ h2 {
 .card-bottom {
     margin-bottom: 200px;
 }
+
+.card-border{
+    border: 1px solid #b6b6b6;
+}
+
+.card-row .col-4{
+    flex-basis: calc(90% /3);
+}
+
