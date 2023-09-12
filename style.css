@@ -159,14 +159,14 @@ h3{
 }
 
 .card-bottom {
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 .card-border{
     border: 1px solid #b6b6b6;
 }
 
-.card-row .col-4{
+.card-row,.box-card .col-4{
     flex-basis: calc(90% /3);
 }
 
@@ -203,5 +203,9 @@ h3{
     border: 1px solid black;
     color: black;
     background-color: white;
+}
+
+.box-card{
+    gap: 0 50px;
 }
  
