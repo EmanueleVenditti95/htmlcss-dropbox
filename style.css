@@ -83,6 +83,11 @@ h1 {
     flex-basis: calc((100% /12)*5);
 }
 
+.col-6 {
+    flex-basis: calc(100% /2);
+
+}
+
 .col-7 {
     flex-basis: calc((100% /12)*7);
 }
@@ -154,7 +159,7 @@ h3{
     color: #0061FF;
 }
 
-.card-body hr {
+hr {
     max-width: 25%;
 }
 
@@ -211,4 +216,36 @@ h3{
  
 .spacer {
     margin: 100px 0;
+}
+
+.square-card {
+    justify-content: center;
+    align-items: center;
+}
+
+.square-card > img {
+    width: 50%;
+}
+
+.bg-green {
+    background-color: #a2d39b ;
+    border: 15px solid #d1e9cd;
+}
+
+.bg-light-blue{
+    background-color: #b4d0e7;
+}
+
+.designit-box {
+    padding: 50px;
+    background-color: #f5f5f5;
+}
+
+.designit-box hr {
+    margin-bottom: 50px;
+}
+
+.flex-align-center {
+    justify-content: center;
+    align-items: center;
 }
