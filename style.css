@@ -41,7 +41,6 @@ img {
 header .row{
     justify-content: space-between;
     align-items: center;
-    
     padding: 20px;
 }
 
@@ -49,6 +48,7 @@ header .row{
     background-color: #0061FF;
     color: white;
     padding: 10px 15px;
+    display: inline-block;
 }
 
 .header-list {
