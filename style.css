@@ -79,6 +79,14 @@ h1 {
     flex-basis: calc(100% /3);
 }
 
+.col-5 {
+    flex-basis: calc((100% /12)*5);
+}
+
+.col-7 {
+    flex-basis: calc((100% /12)*7);
+}
+
 .col-8 {
     flex-basis: calc((100% /12)*8);
 }
@@ -137,7 +145,7 @@ h2 {
     text-decoration: none;
 }
 
-.card-body h3{
+h3{
     font-size: 25px;
 }
 
@@ -181,3 +189,19 @@ h2 {
 .item-row h3 {
     margin-bottom: 15px;
 }
+
+.partner {
+    padding: 150px 0;
+}
+
+.partner .col-5 {
+    padding: 70px 50px;
+}
+
+.partner .button {
+    display: inline-block;
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+}
+ 
