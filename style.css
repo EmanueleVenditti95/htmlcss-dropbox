@@ -149,7 +149,7 @@ h3{
     font-size: 25px;
 }
 
-.card-body a{
+.link-style{
     text-decoration: underline;
     color: #0061FF;
 }
@@ -209,3 +209,6 @@ h3{
     gap: 0 50px;
 }
  
+.spacer {
+    margin: 100px 0;
+}
