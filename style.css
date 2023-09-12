@@ -174,3 +174,10 @@ h2 {
     color: gray;
 }
 
+.item-row {
+    justify-content: space-between;
+}
+
+.item-row h3 {
+    margin-bottom: 15px;
+}
