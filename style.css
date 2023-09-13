@@ -290,6 +290,21 @@ hr {
     background-color: white;
 }
 
-.bg-light-blue .row {
+.bg-light-blue .row, .faq.container-small{
     padding: 50px;
+}
+
+.row.faq>h2 {
+    padding-bottom: 20px;
+}
+
+.faq.row {
+    padding: 30px 0px;
+    border-bottom: 2px solid #9A9A9A;
+    justify-content: space-between;
+    font-weight: 700;
+}
+
+.faq p {
+    padding-right: 30px;
 }
