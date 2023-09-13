@@ -203,7 +203,7 @@ hr {
     padding: 70px 50px;
 }
 
-.partner .button {
+.partner .button{
     display: inline-block;
     border: 1px solid black;
     color: black;
@@ -226,6 +226,7 @@ hr {
 
 .square-card > img {
     width: 50%;
+    filter: invert(100%);
 }
 
 .bg-green {
@@ -235,6 +236,30 @@ hr {
 
 .bg-light-blue{
     background-color: #b4d0e7;
+}
+
+.bg-bordeaux{
+    background-color:#61082B;
+}
+
+.bg-sky-blue{
+    background-color:#0093CE;
+}
+
+.bg-red{
+    background-color:#FF1C1C;
+}
+
+.bg-dark-red{
+    background-color:#D5001F;
+}
+
+.bg-dark-blue{
+    background-color:#0D2491;
+}
+
+.bg-yellow{
+    background-color:#FFD830;
 }
 
 .designit-box {
@@ -253,4 +278,18 @@ hr {
 .flex-align-center {
     justify-content: center;
     align-items: center;
+}
+
+.col-7>h2 {
+    color: #61082B;
+}
+
+.flex-align-center .button {
+    display: inline-block;
+    color: black;
+    background-color: white;
+}
+
+.bg-light-blue .row {
+    padding: 50px;
 }
