@@ -221,6 +221,7 @@ hr {
 .square-card {
     justify-content: center;
     align-items: center;
+    aspect-ratio: 1/1;
 }
 
 .square-card > img {
@@ -243,6 +244,10 @@ hr {
 
 .designit-box hr {
     margin-bottom: 50px;
+}
+
+.designit-box img {
+    max-width: 50%;
 }
 
 .flex-align-center {
