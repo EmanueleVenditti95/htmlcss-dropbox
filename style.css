@@ -310,11 +310,13 @@ hr {
 }
 
 footer .row{
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 footer .col {
     color: white;
+    /* flex-grow: 1;
+    flex-basis: 0; */
 }
 
 footer.container {
