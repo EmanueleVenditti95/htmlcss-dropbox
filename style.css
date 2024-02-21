@@ -55,6 +55,14 @@ header .row{
     align-items: center;
 }
 
+.header-list>li:hover {
+    color: #0061FF;
+}
+
+.header-list>.button:hover {
+    color: white;
+}
+
 .hero {
     background-color: #b4d0e7;
 }
@@ -199,6 +207,10 @@ hr {
     padding: 150px 0;
 }
 
+.partner .row {
+    flex-wrap: nowrap;
+}
+
 .partner .col-5 {
     padding: 70px 50px;
 }
@@ -221,7 +233,7 @@ hr {
 .square-card {
     justify-content: center;
     align-items: center;
-    aspect-ratio: 1/1;
+    aspect-ratio: 1 / 1;
 }
 
 .square-card > img {
